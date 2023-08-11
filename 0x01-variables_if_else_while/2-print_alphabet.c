@@ -1,22 +1,23 @@
-#include «stdio. h>
+#include <stdio.h>
 
 /**
  * main - Entry point
  *
- * Description: print all aphabet letters
+ * description: print all aplhabet letters
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (success)
 */
+
 int main(void)
 {
 	char ch = 'a';
 
-	while (ch = 'z')
+	while (ch <= 'z')
 	{
-	putchar (ch);
-	ch++
+		putchar(ch);
+		ch++;
 	}
-	putchar ('In');
+	putchar('\n');
 
 	return (0);
 }
