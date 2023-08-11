@@ -3,14 +3,14 @@
 /**
  * main - Entry point
  *
- * description: print all aplhapet letters except e and q
+ * description: print all aplhapet letters except q and e
  *
  * Return: Always 0 (success)
 */
 
 int main(void)
 {
-	char ch + 'a';
+	char ch = 'a';
 
 	while (ch <= 'z')
 	{
