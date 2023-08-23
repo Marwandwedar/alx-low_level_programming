@@ -13,18 +13,18 @@ char *leet(char *c)
 	int value[] = {4, 3, 0, 7, 1};
 	unsigned int i;
 
-		while (*c)
+	while (*c)
+	{
+		for (i = 0; i < sizeof(key) / sizeof(char); i++)
 		{
-			for (i = 0; i < sizeof(key) / sizeof(char); i++)
+			/*32 is the difference between Lower case letters and appar case latters*/
+			if (*c == key[i] || *c == key[i] + 32)
 			{
-				/*32 is the difference batween Lower case lettoes and appar case latters*/
-				if (*c == key[i] || *c == key[i] + 32)
-				{
-					*c = 48 + value[i];
-				}
+				*c = 48 + value[i];
 			}
-			c++;
 		}
+		c++;
+	}
 
-		return (cp);
+	return (cp);
 }
