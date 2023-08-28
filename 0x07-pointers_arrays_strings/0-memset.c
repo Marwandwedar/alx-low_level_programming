@@ -3,9 +3,8 @@
 /**
  * *_memset - fills memory with a constant bytes
  * @s: pointer to put the constant
- * @b:Constant
+ * @b: Constant
  * @n: max bytes to use
- *
  * Return: pointer s
 */
 
