@@ -5,7 +5,7 @@
  * @s: pointer to put the constant
  * @b: Constant
  * @n: max bytes to use
- * Return: pointer S
+ * Return: pointer s
 */
 
 char *_memset(char *s, char b, unsigned int n)
@@ -17,5 +17,5 @@ char *_memset(char *s, char b, unsigned int n)
 		s[itr] = b;
 	}
 
-	return (S);
+	return (s);
 }
