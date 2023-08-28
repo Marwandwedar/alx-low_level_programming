@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_memset - fills memory with a constant bytes
+ * *_memset - fills memory with a constant bytes.
  * @s: pointer to put the constant
  * @b: Constant
  * @n: max bytes to use
@@ -10,11 +10,11 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int itr;
+	unsigned int ngm;
 
-	for (itr = 0; n > 0; itr++, n--)
+	for (ngm = 0; n > 0; ngm++, n--)
 	{
-		s[itr] = b;
+		s[ngm] = b;
 	}
 
 	return (s);
